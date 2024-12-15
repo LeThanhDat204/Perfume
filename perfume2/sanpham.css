@@ -1,0 +1,138 @@
+#page {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    background-color: white;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    float: none;
+    display: block;
+    width: 100%;
+}
+.content {
+    width: 100%;
+    border-bottom: solid black;
+}
+.th {
+    text-decoration: underline solid;
+}
+footer {
+    float: left;
+    width: 100%;
+    background-color: #000;
+}
+.boxcenter {
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1, .boxfooter2, .boxfooter3 {
+    width: 33.3%;
+    float: left;
+}
+.textcenter {
+    text-align: center;
+}
+.add {
+    text-align: center;
+}
+h6 {
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    padding: 20px 0;
+}
+.footer .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer .textcenter {
+    color: white;
+    white-space: nowrap;
+}
+.boxfooter {
+    margin: 0 20px;
+    flex: 1;
+}
+.boxfooter h6 {
+    color: white;
+    font-size: 18px;
+}
+.boxfooter .add {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: #000;
+}
+.add{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.footer {
+    background-color: black; /* Màu nền footer */
+    padding: 20px 0; /* Khoảng cách giữa nội dung và khung của footer */
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center; /* Chuyển văn bản vào giữa */
+    flex-wrap: wrap; /* Cho phép các phần tử trên cùng một hàng */
+}
+
+.footer .textcenter {
+    color: white; /* Đổi màu chữ thành đen */
+    white-space: nowrap; /* Đảm bảo các chữ nằm trên cùng một dòng */
+}
+
+/* CSS để định dạng các box trong footer */
+.boxfooter {
+    margin: 0 20px; /* Khoảng cách giữa các box */
+    flex: 1; /* Phần tử boxfooter co dãn theo chiều ngang */
+}
+
+.boxfooter h6 {
+    color:white; /* Màu chữ tiêu đề của box */
+    font-size: 18px; /* Cỡ chữ tiêu đề của box */
+}
+
+.boxfooter .add {
+    margin-top: 10px; /* Khoảng cách giữa tiêu đề và nội dung của box */
+    color: white; /* Màu chữ nội dung của box */
+    font-size: 14px; /* Cỡ chữ nội dung của box */
+}
+
+/* Import Bootstrap CSS if needed */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+/* Custom styles */
+.container {
+    padding: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}

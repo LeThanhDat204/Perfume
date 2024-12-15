@@ -1,0 +1,59 @@
+<div class="container" ng-controller="ProductDetailController">
+    <div>
+        <div>
+            <div class="container my-5">
+                <h1 class="text-center">Đọc và cảm nhận hương thơm này</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Orto-Parisi-Megamare-1-300x300.png" class="card-img-top"
+                                alt="Orto Parisi Megamarre">
+                            <div class="card-body">
+                                <h5 class="card-title">{{product.name}}</h5>
+                                <p class="card-text">Megamarre</p>
+                                <p class="card-text">Price: {{product.price}}</p>
+                                <p class="card-text">Company :
+                                    {{product.company}}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{{ product.imgUrl}}" class="card-img-top"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-title">{{product.name}}</h3>
+                                <p class="card-text">{{product.description}}</p>
+                                <p class="card-text">Price: {{product.price}}</p>
+                                <button ng-click="addToCart(product.id)" class="btn btn-primary">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <h1>Sản phẩm nổi bật</h1>
+    <div class="d-flex justify-content-center">
+        <div class="row" ng-repeat="item in productsSpecial">
+            <div class="col">
+                <a href="#!view/product/{{ item.id}}">
+                <div class="card h-100 text-center">
+                    <img src="{{ item.imgUrl}}" class="card-img-top"
+                        alt="{{ product.name}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.name }}</h5>
+                        <p class="card-text">{{ item.company }}</p>
+                        <p class="card-text">{{ item.price }}</p>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+</div>

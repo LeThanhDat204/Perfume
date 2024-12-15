@@ -1,0 +1,68 @@
+.footer .boxfooter h6 {
+    font-weight: bold;
+}
+
+.footer .boxfooter .add {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.footer .textcenter {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.d-flex.justify-content-center a {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.d-flex.justify-content-center a:hover {
+    color: #007bff;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer .textcenter {
+    color: white;
+    white-space: nowrap;
+    text-align: center; /* Canh giữa nội dung của dòng */
+    font-size: 14px; /* Giảm kích thước font chút ít */
+}
+
+.boxfooter {
+    margin: 0 20px;
+    flex: 1;
+}
+
+.boxfooter h6 {
+    color: white;
+    font-size: 16px; /* Tăng kích thước font cho tiêu đề */
+    text-align: center; /* Canh giữa nội dung của dòng */
+}
+
+.boxfooter .add {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    text-align: center; /* Canh giữa nội dung của dòng */
+}
+.footer {
+    position: fixed; /* Cố định vị trí của footer */
+    bottom: 0; /* Đẩy footer xuống dưới cùng của trang */
+    width: 100%; /* Đảm bảo footer chiếm toàn bộ chiều rộng của trang */
+    background-color: black; /* Màu nền footer */
+    padding: 20px 0; /* Khoảng cách giữa nội dung và khung của footer */
+}

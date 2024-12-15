@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "Carner Barelona",
+        "preview": "Botafumeiro, là tên riêng của một chiếc lư hương đặc biệt trong nhà thờ Santiago de Compostela, di sản thế giới ở Tây Ban Nha.",
+        "company": "Company 1",
+        "description": "Ngay từ khi mới xịt ra, ta đã dễ dàng cảm giác được một làn khói mỏng bao trùm khắp không gian. ",
+        "imgUrl": "./img2/sp1.png",
+        "special": 1,
+        "price": 100
+    },
+    {
+        "id": 2,
+        "name": "Blanche",
+        "preview": "Hồi xưa lần đầu tôi biết đến Byredo, là từ K-Pop, và mùi hương đầu tiên được tiếp xúc là Blanche, thế nên nó luôn có một vị trí nhất định trong lòng",
+        "description": "Byredo thả vào Blanche vẻ nhẹ nhàng bởi mẫu đơn, hoa hồng cùng xạ hương. ",
+        "imgUrl": "./img2/sp2.png",
+        "special": 1,
+        "company": "Company 2",
+        "price": 150
+    },
+    {
+        "id": 3,
+        "name": "Levant",
+        "preview": "A bottle of happiness that has no intention of being anything other than ravishing and gorgeous",
+        "description": "An innocent note of peony, adored by all flower lovers, a singing note of lily",
+        "imgUrl": "./img2/sp3.png",
+        "special": 1,
+        "company": "Company 3",
+        "price": 300
+    },
+    {
+        "id": 4,
+        "name": "Elysium Pour Femme",
+        "description": "Chúng ta đều biết, đa số những mùi của Roja Parfums đều sẽ hướng tới sự đa dụng, nịnh mũi, sang trọng",
+        "imgUrl": "./img2/sp4.png",
+        "special": 1,
+        "company": "Company 1",
+        "preview": "Elysium Pour Femme này cũng không phải là ngoại lệ. Ở đây, chúng ta có tổ hợp hoa của Linh Lan thung lũng",
+        "price": 90
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "description": "Description for product 5",
+        "imgUrl": "./img2/sp5.png",
+        "special": 1,
+        "company": "Company 1",
+        "preview": "Description for product 5",
+        "price": 200
+    },
+    {
+        "id": 6,
+        "name": "Product 6",
+        "description": "Description for product 6",
+        "company": "Company 3",
+        "imgUrl": "./img2/sp6.png",
+        "special": 0,
+        "preview": "Description for product 6",
+        "price": 200
+    },
+    {
+        "id": 7,
+        "name": "Product 7",
+        "description": "Description for product 7",
+        "imgUrl": "./img2/sp7.png",
+        "special": 0,
+        "company": "Company 3",
+        "preview": "Description for product 7",
+        "price": 200
+    },
+    {
+        "id": 8,
+        "name": "Product 8",
+        "description": "Description for product 8",
+        "imgUrl": "./img2/sp8.png",
+        "special": 0,
+        "company": "Company 2",
+        "preview": "Description for product 8",
+        "price": 200
+    },
+    {
+        "id": 9,
+        "name": "Product 9",
+        "description": "Description for product 9",
+        "imgUrl": "./img2/sp9.png",
+        "special": 0,
+        "company": "Company 2",
+        "preview": "Description for product 9",
+        "price": 200
+    },
+    {
+        "id": 10,
+        "name": "Product 10",
+        "description": "Description for product 10",
+        "imgUrl": "./img2/sp10.png",
+        "special": 0,
+        "company": "Company 2",
+        "preview": "Description for product 10",
+        "price": 200
+    },
+    {
+        "id": 1,
+        "name": "Product 11",
+        "preview": "Description for product 11",
+        "company": "Company 1",
+        "description": "Description for product 11",
+        "imgUrl": "./img2/sp11.png",
+        "special": 1,
+        "price": 100
+    },
+    {
+        "id": 12,
+        "name": "Product 12",
+        "preview": "Description for product 12",
+        "description": "Description for product 12",
+        "imgUrl": "./img2/sp12.png",
+        "special": 1,
+        "company": "Company 2",
+        "price": 150
+    },
+    {
+        "id": 13,
+        "name": "Product 13",
+        "preview": "Description for product 13",
+        "description": "Description for product 13",
+        "imgUrl": "./img2/sp13.png",
+        "special": 1,
+        "company": "Company 3",
+        "price": 300
+    },
+    {
+        "id": 14,
+        "name": "Product 14",
+        "description": "Description for product 14",
+        "imgUrl": "./img2/sp14.png",
+        "special": 1,
+        "company": "Company 1",
+        "preview": "Description for product 14",
+        "price": 90
+    },
+    {
+        "id": 15,
+        "name": "Product 15",
+        "description": "Description for product 15",
+        "imgUrl": "./img2/sp15.png",
+        "special": 1,
+        "company": "Company 1",
+        "preview": "Description for product 15",
+        "price": 200
+    },
+    {
+        "id": 16,
+        "name": "Product 16",
+        "description": "Description for product 16",
+        "company": "Company 3",
+        "imgUrl": "./img2/sp16.png",
+        "special": 0,
+        "preview": "Description for product 16",
+        "price": 200
+    },
+    {
+        "id": 17,
+        "name": "Product 17",
+        "description": "Description for product 17",
+        "imgUrl": "./img2/sp17.png",
+        "special": 0,
+        "company": "Company 3",
+        "preview": "Description for product 17",
+        "price": 200
+    },
+    {
+        "id": 18,
+        "name": "Product 18",
+        "description": "Description for product 18",
+        "imgUrl": "./img2/sp18.png",
+        "special": 0,
+        "company": "Company 2",
+        "preview": "Description for product 18",
+        "price": 200
+    },
+    {
+        "id": 19,
+        "name": "Product 19",
+        "description": "Description for product 19",
+        "imgUrl": "./img2/sp19.png",
+        "special": 0,
+        "company": "Company 2",
+        "preview": "Description for product 19",
+        "price": 200
+    },
+    {
+        "id": 20,
+        "name": "Product 20",
+        "description": "Description for product 20",
+        "imgUrl": "./img2/sp20.png",
+        "special": 0,
+        "company": "Company 2",
+        "preview": "Description for product 20",
+        "price": 200
+    }
+]

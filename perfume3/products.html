@@ -1,0 +1,68 @@
+<div class="row" style="text-align: center;">
+    <h1>Shop</h1>
+</div>
+<div ng-controller="ProductsController">
+
+    <div class="row">
+        <aside class="col-md-2">
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h1>Bộ lọc</h1>
+                    <div ng-repeat="item in companies">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="company" id="{{ item.name }}"
+                                ng-change="filterProducts()" ng-model="$parent.selectedCompany" ng-value="item.name">
+                            <label class="form-check-label" for="{{ item.name }}">{{ item.name }}</label>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <h1>Price</h1>
+                    <div>
+                        <div class="form-check">
+                            <input ng-change="filterProducts()" class="form-check-input" type="radio" name="filter"
+                                id="price1" ng-model="priceRange" value="lessThan100">
+                            <label class="form-check-label" for="price1">100</label>
+                        </div>
+                        <div class="form-check">
+                            <input ng-change="filterProducts()" class="form-check-input" type="radio" name="filter"
+                                id="price2" ng-model="priceRange" value="between100_200">
+                            <label class="form-check-label" for="price2">100-200</label>
+                        </div>
+                        <div class="form-check">
+                            <input ng-change="filterProducts()" class="form-check-input" type="radio" name="filter"
+                                id="price3" ng-model="priceRange" value="moreThan200">
+                            <label class="form-check-label" for="price3"> >200</label>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </aside>
+
+        <div class="col-md-10">
+            <div class="row" id="filteredProducts">
+                <form class="d-flex" ng-submit="filterProducts()">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        ng-model="searchQuery">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="col-md-2" dir-paginate="product in filteredProducts | itemsPerPage : 12">
+                    <div class="card">
+                        <a href="#!view/product/{{ product.id}}">
+                            <img src="{{ product.imgUrl}}" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ product.name }}</h5>
+                                <p class="card-text">{{ product.preview }}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <dir-pagination-controls boundary-links="true"
+                    on-page-change="pageChangeHandler(newPageNumber)"></dir-pagination-controls>
+            </div>
+
+        </div>
+    </div>
+</div>

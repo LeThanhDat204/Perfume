@@ -1,0 +1,22 @@
+<div ng-controller="register-controller">
+    <h1>Register</h1>
+    <form style="width: 500px; margin-left: 500px; margin-bottom: 20px;" ng-submit="submitForm()">
+        <div class="mb-3">
+            <label for="fullname" class="form-label">Full name</label>
+            <input type="text" class="form-control" id="fullname" ng-model="user.fullname">
+        </div>
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" ng-model="user.username">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" ng-model="user.password">
+        </div>
+        <div class="mb-3">
+            <label for="re-password" class="form-label">Re-Password</label>
+            <input type="password" class="form-control" id="re-password" ng-model="user.repassword">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

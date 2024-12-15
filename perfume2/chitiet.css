@@ -1,0 +1,175 @@
+
+.logo{
+    margin: auto;
+}
+.float-left{
+    width: 30%;
+}
+.float-right{
+    width: 30%;
+}
+header ul.menu li{
+    position: relative;
+    display: inline;
+    font-size: 14px;
+    font-weight: bolder;
+}
+header ul.menu li a{
+    position: relative;
+    display: inline-block;
+    line-height: 45px;
+    padding: 0 8px;
+    color: black;
+    text-decoration: underline solid;
+}
+header ul.menu li a:hover{
+    color: gray;
+}
+header ul.menu li a:hover{
+    color: gray;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+nav{
+    background-color:white;
+    text-align: center;
+    color: #666;
+    font-size: 1.5rem;
+    font-family: 'josefin sans';
+    cursor: pointer;
+    text-rendering: optimizeLegibility;
+    float: none;
+    display: block;
+    width: 100%;
+}
+.chitiet > aside{
+    min-width: 323px;
+    width: 50%;
+    background-color:white;
+    float: left;
+    height: 1400px;  
+}
+.content3{
+    width: 50%;
+    background-color:white;
+    float: right;
+    height: 1400px;
+}
+.mota{
+    margin: 0 50px;
+}
+.css{
+    float: left;
+    margin: 100px;
+}
+.noibat{
+    margin: 40px;
+    text-align: center;
+}
+button{
+    width: 197px;
+    height: 50px;  
+    margin: 50px;
+}
+.company-info{
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: #000;
+}
+.row{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+.boxcenter{
+    width: 50%;
+    margin: 0 auto;
+}
+.boxfooter1{
+    width: 33.3%;
+    float: left;
+}
+.boxfooter2{
+    width: 33.3%;
+    float: left;
+}
+.boxfooter3{
+    width: 33.3%;
+    float: left;
+}
+.textcenter{
+    text-align: center;
+}
+.add{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.footer {
+    background-color: black; /* Màu nền footer */
+    padding: 20px 0; /* Khoảng cách giữa nội dung và khung của footer */
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center; /* Chuyển văn bản vào giữa */
+    flex-wrap: wrap; /* Cho phép các phần tử trên cùng một hàng */
+}
+
+.footer .textcenter {
+    color: white; /* Đổi màu chữ thành đen */
+    white-space: nowrap; /* Đảm bảo các chữ nằm trên cùng một dòng */
+}
+
+/* CSS để định dạng các box trong footer */
+.boxfooter {
+    margin: 0 20px; /* Khoảng cách giữa các box */
+    flex: 1; /* Phần tử boxfooter co dãn theo chiều ngang */
+}
+
+.boxfooter h6 {
+    color:white; /* Màu chữ tiêu đề của box */
+    font-size: 18px; /* Cỡ chữ tiêu đề của box */
+}
+
+.boxfooter .add {
+    margin-top: 10px; /* Khoảng cách giữa tiêu đề và nội dung của box */
+    color: white; /* Màu chữ nội dung của box */
+    font-size: 14px; /* Cỡ chữ nội dung của box */
+}
+.content3 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.content3 select {
+    margin-top: 1rem;
+}
+
+.chitiet img {
+    margin-bottom: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
